@@ -20,6 +20,8 @@ konbarahay(5,6)
 konbarahay(5,5)
 */
 
+
+
 //BMI CALCULATOR 
 
 
@@ -44,3 +46,4 @@ function BMI_CALCULATOR(weight,height){
 weight=parseFloat(prompt("enter ur weight"))
 height=(parseFloat(prompt("enter ur height")))/3.3
 console.log(BMI_CALCULATOR(weight,height))
+
