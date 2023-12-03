@@ -25,7 +25,7 @@ konbarahay(5,5)
 //BMI CALCULATOR 
 
 
-function BMI_CALCULATOR(weight,height){
+/*function BMI_CALCULATOR(weight,height){
     BMI = weight/(height**2)
 
     if (BMI<=18.4){
@@ -46,4 +46,18 @@ function BMI_CALCULATOR(weight,height){
 weight=parseFloat(prompt("enter ur weight"))
 height=(parseFloat(prompt("enter ur height")))/3.3
 console.log(BMI_CALCULATOR(weight,height))
+*/
 
+function taxcalculator(salary
+){
+    if (salary>=100000)
+        tax = salary*0.15
+        if (tax>2000)
+            return "good citizen"
+        
+    else if (salary>=100000)
+        tax = salary*0.15
+        if (tax>2000)
+        return "good citizen"
+    
+}
