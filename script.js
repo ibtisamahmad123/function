@@ -21,12 +21,26 @@ konbarahay(5,5)
 */
 
 //BMI CALCULATOR 
-weight=prompt("enter ur weight")
-height=prompt("enter ur height")
+
 
 function BMI_CALCULATOR(weight,height){
-     BMI = weight/(height**2)
-    console.log("your bmi is : " , BMI)
+    BMI = weight/(height**2)
+
+    if (BMI<=18.4){
+        return "underweight"
+    }
+    else if (BMI>18.4 && BMI<25.0){
+            return "normal"
+        }
+    else if (BMI>=25.0 && BMI<40.0) {  
+        return "overweight"
+    }
+    else  
+        return "obese" 
+    return BMI  
 }
 
-BMI_CALCULATOR(weight,height)
+
+weight=parseFloat(prompt("enter ur weight"))
+height=(parseFloat(prompt("enter ur height")))/3.3
+console.log(BMI_CALCULATOR(weight,height))
